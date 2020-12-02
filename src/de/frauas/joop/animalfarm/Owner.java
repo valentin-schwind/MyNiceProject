@@ -1,4 +1,4 @@
-package de.frauas.joop.myniceproject;
+package de.frauas.joop.animalfarm;
 
 import java.util.ArrayList;
 import java.util.List;

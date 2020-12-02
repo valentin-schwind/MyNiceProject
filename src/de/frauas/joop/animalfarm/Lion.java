@@ -1,4 +1,4 @@
-package de.frauas.joop.myniceproject;
+package de.frauas.joop.animalfarm;
 
 public class Lion extends Animal {
 	public Fur fur;

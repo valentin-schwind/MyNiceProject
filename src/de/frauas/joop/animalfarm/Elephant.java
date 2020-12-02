@@ -1,4 +1,4 @@
-package de.frauas.joop.myniceproject; 
+package de.frauas.joop.animalfarm; 
 
 public class Elephant extends Animal {
 
