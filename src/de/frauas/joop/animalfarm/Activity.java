@@ -3,7 +3,8 @@ package de.frauas.joop.animalfarm;
 public enum Activity {
 	SLEEPING(-1000, 0), 
 	PLAYING(-6000, 0), 
-	POO(0, -40); 
+	POO(0, -40),
+	SEARCHINGFOOD(0, -40); 
 	
 	private int calories; 
 	private int kilograms;  

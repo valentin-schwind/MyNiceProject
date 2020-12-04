@@ -15,6 +15,7 @@ public class AnimalFarm {
 		animals.add(new Elephant("Jumbo", 100f));
 		animals.add(new Lion("Moto", 220f, 5));
 		animals.add(new Cat("Kitty", 4f, 5));
+		animals.add(new Cat("Rufus", 4f, 5));
 		animals.add(new Dog("Bello", 6f, 3));
 		 
 		
