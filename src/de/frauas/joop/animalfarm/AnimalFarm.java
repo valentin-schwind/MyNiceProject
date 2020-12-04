@@ -17,6 +17,7 @@ public class AnimalFarm {
 		animals.add(new Cat("Kitty", 4f, 5));
 		animals.add(new Cat("Rufus", 4f, 5));
 		animals.add(new Dog("Bello", 6f, 3));
+		animals.add(new Dog("Lassie", 6f, 3));
 		 
 		
 		for(Animal animal : animals)  
