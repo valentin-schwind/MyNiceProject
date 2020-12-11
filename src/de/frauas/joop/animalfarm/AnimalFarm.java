@@ -14,6 +14,7 @@ public class AnimalFarm {
 		animals.add(new Elephant("Mrs. Jumbo", 4000f, 25));
 		animals.add(new Elephant("Jumbo", 100f));
 		animals.add(new Lion("Moto", 220f, 5));
+		animals.add(new Bear("Teddy", 150f, 2));
 		animals.add(new Cat("Kitty", 4f, 5));
 		animals.add(new Cat("Rufus", 4f, 5));
 		animals.add(new Dog("Bello", 6f, 3));
@@ -29,6 +30,8 @@ public class AnimalFarm {
 				animal.eats(10, Grain.CORN); 
 			if(animal instanceof Lion)
 				animal.eats(5, Meat.FISH);
+			if(animal instanceof Bear)
+				animal.eats(5, Meat.FISH);
 			if(animal instanceof Cat)
 				animal.eats(1, Meat.FISH);
 			animal.does(Activity.POO);
@@ -42,6 +45,10 @@ public class AnimalFarm {
 		((Lion)animals.get(2)).fur = new Lion.Fur((Lion)animals.get(2), "white");
 		((Lion)animals.get(2)).setName("Moto 2");
 		((Lion)animals.get(2)).fur.showFur();
+
+		((Bear)animals.get(2)).fur = new Bear.Fur((Bear)animals.get(2), "brown");
+		((Bear)animals.get(2)).setName("Momo");
+		((Bear)animals.get(2)).fur.showFur();
 		
 		System.out.println("\nCopying array...");
 		List<Animal> animalBackup = new ArrayList<Animal>();
