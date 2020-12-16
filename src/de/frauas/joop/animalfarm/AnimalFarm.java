@@ -46,9 +46,9 @@ public class AnimalFarm {
 		((Lion)animals.get(2)).setName("Moto 2");
 		((Lion)animals.get(2)).fur.showFur();
 
-		((Bear)animals.get(2)).fur = new Bear.Fur((Bear)animals.get(2), "brown");
-		((Bear)animals.get(2)).setName("Momo");
-		((Bear)animals.get(2)).fur.showFur();
+		((Bear)animals.get(3)).fur = new Bear.Fur((Bear)animals.get(3), "brown");
+		((Bear)animals.get(3)).setName("Momo");
+		((Bear)animals.get(3)).fur.showFur();
 		
 		System.out.println("\nCopying array...");
 		List<Animal> animalBackup = new ArrayList<Animal>();

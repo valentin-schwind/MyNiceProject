@@ -31,7 +31,7 @@ public class Bear extends Animal {
 		super(bear.weight, bear.age);  
 		this.name = bear.name;
 		if(this.fur != null)
-			this.fur = new Bear.Fur(bear, bion.fur.furColor);
+			this.fur = new Bear.Fur(bear, bear.fur.furColor);
 	}
 
 	@Override
